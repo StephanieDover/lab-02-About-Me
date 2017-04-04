@@ -1,0 +1,42 @@
+
+body {
+  background-color: #595959;
+  width: 950px;
+  height: 500px;
+  color: #FFFFFF;
+  margin:auto;
+}
+li {
+  list-style: armenian;
+  list-style-position: inside;
+  text-align: left;
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #FFE000;
+
+}
+
+#heading {
+  text-align: center;
+  border: 2px solid #FFE000;
+  margin: 2px;
+  height: 300px;
+  width: 468px;
+  float: left;
+  clear: right;
+}
+
+h3 {
+  text-align: center;
+}
+
+#list {
+  float: right;
+  border: 2px solid #FFE000;
+  height: 300px;
+  width: 468px;
+}
