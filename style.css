@@ -4,7 +4,7 @@ body {
   width: 950px;
   height: 500px;
   color: #FFFFFF;
-  margin:auto;
+  margin: auto;
 }
 li {
   list-style: armenian;
@@ -28,6 +28,11 @@ h1 {
   float: left;
   clear: right;
 }
+p{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
 
 h3 {
   text-align: center;
@@ -38,4 +43,11 @@ h3 {
   border: 2px solid #FFE000;
   height: 300px;
   width: 468px;
+}
+.clearFix {
+  clear: both;
+}
+
+.hidden {
+  display: none;
 }
