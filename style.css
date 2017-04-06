@@ -1,10 +1,10 @@
-
 body {
   background-color: #595959;
   width: 950px;
   height: 500px;
   color: #FFFFFF;
-  margin:auto;
+  margin: auto;
+  font-family: Georgia, serif;
 }
 li {
   list-style: armenian;
@@ -13,20 +13,56 @@ li {
   margin: 5px;
 }
 
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  border: 2px solid #FFE000;
-
-}
-
 #heading {
+  border: 2px solid #FFE000;
+  text-align: center;
+  margin-top: 10px;
+  height: 200px;
+  z-index: 2;
+}
+#myPhoto {
+  border: 2px solid #FFE000;
+  border-radius: 100px;
+  width: 150px;
+  height: 260px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 159px;
+  margin-right: 159
+  z-index: 3;
+  background-color: #ffffff;
+}
+#introduction {
+  border: 2px solid #FFE000;
+  height: 300px;
+  width: 945px;
+}
+h1 {
+  text-transform: uppercase;
+  display: block;
+  position: static;
+  text-align: center;
+}
+.me {
+  text-align: center;
+  border: none;
+  height: 300px;
+  width: 468px;
+  float: left;
+  clear: right;
+}
+#aboutMe {
   text-align: center;
   border: 2px solid #FFE000;
   height: 300px;
   width: 468px;
   float: left;
   clear: right;
+}
+p{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
 }
 
 h3 {
@@ -38,4 +74,27 @@ h3 {
   border: 2px solid #FFE000;
   height: 300px;
   width: 468px;
+}
+
+.clearFix {
+  clear: both;
+  margin-bottom: 5px;
+}
+#workExperience {
+  float: left;
+  border: 2px solid #FFE000;
+  height: 300px;
+  width: 468px;
+}
+.listTwo {
+  list-style: circle;
+}
+#education {
+  float: right;
+  border: 2px solid #FFE000;
+  height: 300px;
+  width: 468px;
+}
+#topTen {
+  font-size: 13px;
 }

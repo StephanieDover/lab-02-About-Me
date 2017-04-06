@@ -1,27 +1,80 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title>About Me</title>
-    </head>
-    <body>
-      <h1>Stephanie Dover</h1>
-      <div id='heading'>
-      <h2>About Me</h2>
-      <p>I live on the <em>Eastside</em>. I <em>love</em> cats. Cheese and pineapple is my <em>favorite</em> pizza.
-        I <em>do</em> have pink hair. I've been sorted into<em> Gryffindor</em> by Pottermore.
-        I'm really enjoying the 201 class! JavaScript<strong> ROCKS</strong>!
-      </p>
-    </div>
-      <div id='list'>
-      <h3>Why I want to code</h3>
+<html>
+<head>
+  <title>About Me</title>
+  <link rel='stylesheet' type='text/css' href='style.css'/>
+</head>
+<body>
+  <div id='heading'>
+    <h1>Stephanie Dover</h1>
+    <h2>Software Developer</h2>
+  </div>
+  <div class="clearFix"></div>
+  <div id="introduction">
+  <div class='me'>
+    <img id="myPhoto" src='photo_About_Me.png' width="100px" height="175px"/>
+  </div>
+  <div class='me'>
+    <h3>Why I want to code</h3>
+    <ul>
+      <li>It's fun!</li>
+      <li>It makes me feel like a hacker</li>
+      <li>It gives me more freedom to style websites.</li>
+      <li>it gives me the ability to build specialized software</li>
+    </ul>
+  </div>
+</div>
+  <div class="clearFix"></div>
+  <div id='workExperience'>
+    <h3>Work Experience</h3>
+    <ol>
+      <li>Pin Hsiao &amp; Associates, LLC: 2014-2017</li>
       <ul>
-        <li>It's fun!</li>
-        <li>It makes me feel like a hacker</li>
-        <li>It gives me more freedom to style websites.</li>
-        <li>it gives me the ability to build specialized software</li>
+        <li class='listTwo'>Marketing July '16 - March '17</li>
+        <li class='listTwo'>Administration General Manager Dec '15 - March '17 </li>
+        <li class='listTwo'>Operations Mar '15 - Dec'15</li>
+        <li class='listTwo'>Executive Assistant: Aug '14 - Mar '15</li>
       </ul>
+      <li>Columbia Bank: 2010-2014</li>
+    </ol>
+  </div>
+  <div id='education'>
+    <h3>Education</h3>
+    <ol>
+      <li >Code Fellows</li>
+      <ul>
+        <li class='listTwo'>CSS</li>
+        <li class='listTwo'>HTML</li>
+        <li class='listTwo'>JavaScript</li>
+        <li class='listTwo'>jQuery</li>
+        <li class='listTwo'>DOM</li>
+        <li class='listTwo'>Node.js</li>
+      </ol>
     </div>
-      <link rel='stylesheet' type='text/css' href='style.css'/>
-      <script src="app.js"></script>
-    </body>
+  <div class="clearFix"></div>
+  <div id='aboutMe'>
+    <h2>About Me</h2>
+    <p>I live on the <em class= 'hidden' id='live'>Eastside</em>. I <em class= 'hidden' id='meow'>love</em> cats. Cheese and pineapple is my <em class= 'hidden' id='pineapple'>favorite</em> pizza. I <em class= 'hidden' id='hair'>do</em> have pink hair. I've been sorted into <em class= 'hidden' id='pottermore'>Gryffindor</em> by Pottermore. My favorite
+      number is <em class= 'hidden' id='number'>8</em>. I'm really enjoying the 201 class! JavaScript<strong> ROCKS</strong>!
+    </p>
+  </div>
+  <div id='list'>
+    <h3>Top 10 Places I want to Visit</h3>
+    <ol id='topTen'>
+      <li>Australia</li>
+      <li>New Zealand</li>
+      <li>Florida</li>
+      <li>Japan</li>
+      <li>Finland</li>
+      <li>Egypt</li>
+      <li>New Orleans</li>
+      <li>The Bahamas</li>
+      <li>Puerto Rico</li>
+      <li>Diagon Alley</li>
+    </ol>
+  </div>
+  <div class="clearFix"></div>
+
+    <script src="app.js"></script>
+  </body>
   </html>
