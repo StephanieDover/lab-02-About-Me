@@ -1,100 +1,193 @@
+
+* {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  width: 100%
+}
 body {
-  background-color: #595959;
-  width: 950px;
-  height: 500px;
-  color: #FFFFFF;
+  width:100%;
+  height: 100%;
+  color: #1B1D26;
   margin: auto;
-  font-family: Georgia, serif;
+  font-family: 'Libre Baskerville', serif;
 }
 li {
   list-style: armenian;
   list-style-position: inside;
-  text-align: left;
   margin: 5px;
 }
 
 #heading {
-  border: 2px solid #FFE000;
+  background-color: #BFBEBF;
   text-align: center;
-  margin-top: 10px;
-  height: 200px;
-  z-index: 2;
+  height: 40%;
+  vertical-align: super;
 }
-#myPhoto {
-  border: 2px solid #FFE000;
+#my-photo {
+  background-image: url('photo_About_Me.png');
+  border: 2px solid #3E606F;
   border-radius: 100px;
   width: 150px;
-  height: 260px;
+  height: 250px;
   float: left;
-  margin-top: 20px;
-  margin-left: 159px;
-  margin-right: 159
-  z-index: 3;
-  background-color: #ffffff;
+  margin-top: 3%;
+  margin-left: 15%;
+  position: absolute;
 }
-#introduction {
-  border: 2px solid #FFE000;
-  height: 300px;
-  width: 945px;
+#education {
+  background-color: #FFFFFF;
+  height: 40%;
+  width: 100%;
+}
+#code-fellows {
+  height: 10%;
+  width: 20%;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 39%;
+}
+#html {
+  height: 15%;
+  width: 7.5%;
+  margin-left: 25%
+}
+#css {
+  height: 15%;
+  width: 7.5%
+}
+#js {
+  height: 15%;
+  width: 7.5%
+}
+.list-three {
+  list-style: none;
+  display: inline;
+  margin: 5%;
 }
 h1 {
+  margin-top: 5%;
   text-transform: uppercase;
   display: block;
   position: static;
   text-align: center;
+  vertical-align: middle;
+  font-size: 3em;
+}
+h2 {
+  display: block;
+  position: static;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2em;
 }
 .me {
   text-align: center;
   border: none;
   height: 300px;
-  width: 468px;
+  width: 475px;
   float: left;
   clear: right;
+  width: auto;
 }
-#aboutMe {
-  text-align: center;
-  border: 2px solid #FFE000;
-  height: 300px;
-  width: 468px;
-  float: left;
-  clear: right;
+#introduction {
+  background-color: #BFBEBF;
+  height: 30%;
+  width: 100%;
+}
+#li-one {
+ font-size: 3em;
+ font-family: cursive;
+ font-variant: small-caps;
+ color: #E54D26;
+ display: inline;
+   margin: 0;
+ float: left;
+}
+#li-two {
+  float: right;
+  font-size: 3em;
+  font-family: cursive;
+  font-variant: small-caps;
+color: #0270B9;
+display: inline;
+margin: 0;
+}
+#li-three {
+  font-size: 2.5em;
+  font-family: cursive;
+  font-variant: small-caps;
+  color: #D03327;
+  display: inline;
+  margin: 0;
+}
+#li-four {
+  font-size: 2.5em;
+  font-family: cursive;
+  font-variant: small-caps;
+  color: #FFF;
+  display: inline;
+  margin-left: 1%;
 }
 p{
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 20px;
+  text-align: left;
+  margin-left: 25%;
 }
 
 h3 {
   text-align: center;
 }
 
-#list {
-  float: right;
-  border: 2px solid #FFE000;
+#top-ten-list {
+  background-color: #FFFFFF;
+  float: right
+  border-radius: 10px;
   height: 300px;
-  width: 468px;
+  width: 100%;
 }
 
-.clearFix {
+.clear-fix {
   clear: both;
   margin-bottom: 5px;
 }
-#workExperience {
-  float: left;
-  border: 2px solid #FFE000;
-  height: 300px;
-  width: 468px;
+#work-experience {
+  background-color: #FCFFF5;
+  height: 30%;
+  width: 100%;
+  text-align: center;
 }
-.listTwo {
+#jobs {
+  text-align: left;
+  margin-left: 40%;
+}
+.list-two {
   list-style: circle;
 }
-#education {
-  float: right;
-  border: 2px solid #FFE000;
-  height: 300px;
-  width: 468px;
+#about-me {
+  background-color: #BFBEBF;
+  border-radius: 10px;
+  height: 30%;
+  width: 100%;
 }
-#topTen {
+#gryffindor {
+  position: absolute;
+  display: inline-block;
+  float: left;
+  margin-left: 10%;
+  background-image: url('gryffindor.png');
+  height: 190px;
+  width: 154px;
+}
+#top-ten {
   font-size: 13px;
+  text-align: center;
 }
+#contact-me
